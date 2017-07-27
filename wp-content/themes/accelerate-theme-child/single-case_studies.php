@@ -30,18 +30,23 @@ get_header(); ?>
 								<h6>Client: <?php echo $client; ?></h6>
 
 								<?php the_content(); ?>
+								
 								<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 						</aside>
+
 						<div class="case-study-images">
-							<?php if($image_1) { ?>
-								<echo wp_get_attachment_image( $image_1, $size );/>
-								<?php} ?>
+								<?php if($image_1) { ?>
+										<echo wp_get_attachment_image( $image_1, $size );/>
+								<?php } ?>
+
 								<?php if($image_2) { ?>
-								<echo wp_get_attachment_image( $image_2, $size );/>
-								<?php} ?>
+										<echo wp_get_attachment_image( $image_2, $size );/>
+								<?php } ?>
+
 								<?php if($image_3) { ?>
-								<echo wp_get_attachment_image( $image_3, $size );/>
-								<?php} ?>
+										<echo wp_get_attachment_image( $image_3, $size );/>
+								<?php } ?>
+
 					</div>
 
 				</article>
