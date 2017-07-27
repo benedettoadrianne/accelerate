@@ -36,7 +36,7 @@
 }
 .blog-post h2 {
     font-size: 1.5em;
-    margin: 36px 0;
+    margin: 6% 0;
 }
 .read-more-link {
     font-family: 'Montserrat';
@@ -48,19 +48,19 @@
 /* Case Studies*/
 
 article.case-study {
-  margin: 40px 0 0;
+  margin: 6% 0 0;
 }
 aside.case-study-sidebar {
     float: left;
-    width: 314px;
-    margin: 0 40px 0 0;
+    width: 34%;
+    margin: 0 6% 0 0;
 }
 
 div.case-study-images {
     float: left;
-    width: 606px;
+    width: 60%;
 }
 div.case-study-images img{
-    margin-bottom: 50px;
+    margin-bottom: 7%;
     border: 1px solid #dddddd;
 }
