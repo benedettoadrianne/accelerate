@@ -30,7 +30,7 @@ get_header(); ?>
 								<h6>Client: <?php echo $client; ?></h6>
 
 								<?php the_content(); ?>
-								
+
 								<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 						</aside>
 
@@ -46,7 +46,6 @@ get_header(); ?>
 								<?php if($image_3) { ?>
 										<echo wp_get_attachment_image( $image_3, $size );/>
 								<?php } ?>
-
 					</div>
 
 				</article>
