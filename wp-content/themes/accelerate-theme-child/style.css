@@ -25,6 +25,15 @@
     float: left;
     margin: 0 10px;
 }
+
+.featured-work h4 {
+  text-align: center;
+}
+
+.homepage-featured-work ul {
+  list-style: none;
+}
+
 .blog-post{
   width: 50%;
 }
@@ -56,6 +65,7 @@
 
 .read-more-link {
     font-family: 'Montserrat';
+    font-size: 1em;
     font-weight: 700;
     color: #45ac9d;
     text-transform: uppercase;
