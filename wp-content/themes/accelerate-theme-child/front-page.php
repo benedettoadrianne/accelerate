@@ -48,28 +48,6 @@ get_header(); ?>
 	 								<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
 							</li>
 							<?php endwhile; //end of loop. ?>
-							<?php while ( have_posts() ) : the_post();
-							$image_2 = get_field("image_2");
-							$size = "medium";
- 						?>
-							<li class="individual-featured-work">
- 									<figure>
-											<?php echo wp_get_attachment_image($image_2, $size); ?>
-									</figure>
-	 								<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
-							</li>
-							<?php endwhile; //end of loop. ?>
-							<?php while ( have_posts() ) : the_post();
-							$image_3 = get_field("image_3");
-							$size = "medium";
- 						?>
-							<li class="individual-featured-work">
- 									<figure>
-											<?php echo wp_get_attachment_image($image_3, $size); ?>
-									</figure>
-	 								<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
-							</li>
-							<?php endwhile; //end of loop. ?>
 							<?php wp_reset_query(); //resets the altered query back to the original ?>
 				</ul>
 	</div>

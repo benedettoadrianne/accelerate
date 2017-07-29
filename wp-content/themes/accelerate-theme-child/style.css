@@ -34,6 +34,15 @@ ul.homepage-featured-work  {
   list-style: none;
 }
 
+li.individual-featured-work {
+  width: 30%;
+  float: left;
+}
+
+figure {
+  float:left;
+}
+
 .blog-post{
   width: 50%;
 }
