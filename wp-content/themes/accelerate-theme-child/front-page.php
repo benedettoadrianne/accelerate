@@ -15,7 +15,13 @@
 get_header(); ?>
 
 <section class="home-page">
-		<?php while ( have_posts() ) : the_post(); ?>
+
+			<?php while ( have_posts() ) : the_post();
+				$image_1 = get_field('image_1');
+				$image_2 = get_field('image_2');
+				$image_3 = get_field('image_3');
+				$size = "full";?>
+
 			<div class="homepage-hero">
 				<div class="site-content">
 					<?php the_content(); ?>
@@ -75,11 +81,9 @@ get_header(); ?>
      <?php while ( have_posts() ) : the_post(); ?>
        <h2><?php the_title(); ?></h2>
        <?php the_excerpt(); ?>
-			 <a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>
      <?php endwhile; //end of loop. ?>
     <?php wp_reset_query(); //resets the altered query back to the original ?>
 		</div>
 	</div>
 </section>
-
 <?php get_footer(); ?>
