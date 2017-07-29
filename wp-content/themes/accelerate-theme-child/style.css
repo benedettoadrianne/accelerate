@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.homepage-featured-work ul {
+ul.homepage-featured-work  {
   list-style: none;
 }
 
@@ -84,7 +84,7 @@ aside.case-study-sidebar {
 
 div.case-study-images {
     float: left;
-    width: 60%;
+    width: 58%;
 }
 div.case-study-images img{
     margin-bottom: 7%;
