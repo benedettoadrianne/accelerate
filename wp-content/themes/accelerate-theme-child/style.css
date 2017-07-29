@@ -37,12 +37,15 @@ ul.homepage-featured-work  {
 li.individual-featured-work {
   width: 30%;
   float: left;
+  margin: 5px
 }
 
 figure {
   float:left;
 }
-
+h3 {
+    text-align: center;
+}
 .blog-post{
   width: 50%;
 }
