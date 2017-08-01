@@ -28,6 +28,7 @@
 
 .featured-work h4 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 ul.homepage-featured-work  {
@@ -46,6 +47,13 @@ figure {
 h3 {
     text-align: center;
 }
+h5 {
+   font-size: 16px;
+   font-size: .85em;
+   text-transform: uppercase;
+   color: lightgray;
+   line-height: 1.5;
+}
 .blog-post{
   width: 50%;
 }
@@ -57,7 +65,7 @@ h3 {
 }
 .blog-post h4{
   color: #a6a6a6;
-  margin-top: 0;
+  margin-top: 20;
   text-transform: uppercase;
 }
 .blog-post h5{
@@ -96,7 +104,7 @@ aside.case-study-sidebar {
 
 div.case-study-images {
     float: left;
-    width: 58%;
+    width: 59%;
 }
 div.case-study-images img{
     margin-bottom: 7%;

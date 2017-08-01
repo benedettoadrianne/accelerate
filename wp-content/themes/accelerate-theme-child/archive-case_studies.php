@@ -14,7 +14,7 @@ get_header(); ?>
 						$image_1 = get_field('image_1');
 						$size = "full";
 						$services = get_field('services');?>
-
+			<section class="recent-posts clearfix">
 					<article class="case-study">
 							<aside class="case-study-sidebar">
 									<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -30,6 +30,7 @@ get_header(); ?>
 								 </a>
 							</div>
 					</article>
+				</section>
 			<?php endwhile; // end of the loop. ?>
 
 			</div><!-- #content -->
