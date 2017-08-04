@@ -25,7 +25,7 @@ get_header(); ?>
 		<div class="homepage-hero">
 				<div class="site-content">
 					<?php the_content(); ?>
-					<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
+					<a class="button" href="<?php echo home_url(); ?>/case-studies">View Our Work</a>
 				</div><!-- .site-content -->
 			<?php endwhile; // end of the loop. ?>
 		</div>

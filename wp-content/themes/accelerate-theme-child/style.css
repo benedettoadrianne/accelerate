@@ -41,19 +41,41 @@ li.individual-featured-work {
   margin: 5px
 }
 
+.main-content h2, h5, h6{
+  margin: 0em 0 .5em;
+  font: 'Open Sans';
+}
+.main-content h6{
+  font-weight: 400;
+}
+
 figure {
   float:left;
 }
-h3 {
-    text-align: center;
+h3 a {
+    font-size: .75em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
 }
 h5 {
-   font-size: 16px;
    font-size: .85em;
-   text-transform: uppercase;
+   font-weight: 400;
+   text-transform: capitalize;
    color: lightgray;
-   line-height: 1.5;
 }
+strong,
+a {
+  color: #45ac9d;
+  font-size: .75 em;
+  text-transform: uppercase;
+}
+.case-study-sidebar h2 a{
+  color: black;
+  font-size: 2 em;
+  text-transform: capitalize;
+}
+
 .blog-post{
   width: 50%;
 }
@@ -104,7 +126,7 @@ aside.case-study-sidebar {
 
 div.case-study-images {
     float: left;
-    width: 59%;
+    width: 60%;
 }
 div.case-study-images img{
     margin-bottom: 7%;
