@@ -120,8 +120,8 @@ article.case-study {
 }
 aside.case-study-sidebar {
     float: left;
-    width: 34%;
-    margin: 0 6% 0 0;
+    width: 36%;
+    margin: 0 4% 0 0;
 }
 
 div.case-study-images {
@@ -131,4 +131,32 @@ div.case-study-images {
 div.case-study-images img{
     margin-bottom: 7%;
     border: 1px solid #dddddd;
+}
+
+/*Contact Us*/
+
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    float: right;
+  }
+
+
+div.main-content {
+    flex-grow: inherit;
+        width: 800px;
+        margin: auto;
+}
+
+#nf-field-1-container, #nf-field-2-container{
+  width: 50%;
+  display: table-row;
+}
+#nf-field-1-wrap{
+  float:left;
+  margin-right: 15px;
+
+}
+#nf-field-2-wrap{
+  float: right;
+
 }
