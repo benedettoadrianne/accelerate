@@ -39,15 +39,15 @@
              'rewrite' => array( 'slug' => 'case-studies' ),
          )
      );
-     register_post_type( 'our_services',
+     register_post_type( 'about_page',
          array(
              'labels' => array(
-                 'name' => __( 'Our Services' ),
-                 'singular_name' => __( 'Service' )
+                 'name' => __( 'About Page' ),
+                 'singular_name' => __( 'About' )
              ),
              'public' => true,
              'has_archive' => true,
-             'rewrite' => array( 'slug' => 'our_services' ),
+             'rewrite' => array( 'slug' => 'about' ),
          )
      );
  }
