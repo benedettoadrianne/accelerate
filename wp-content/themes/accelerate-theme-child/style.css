@@ -146,17 +146,3 @@ div.main-content {
         width: 800px;
         margin: auto;
 }
-
-#nf-field-1-container, #nf-field-2-container{
-  width: 50%;
-  display: table-row;
-}
-#nf-field-1-wrap{
-  float:left;
-  margin-right: 15px;
-
-}
-#nf-field-2-wrap{
-  float: right;
-
-}
