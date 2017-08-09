@@ -146,3 +146,68 @@ div.main-content {
         width: 800px;
         margin: auto;
 }
+
+/*About Page*/
+
+.contact-us-about-page{
+  border-top: 1px solid #bfbfbf;
+  padding-top: 1em;
+	margin-bottom: 2em;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 960px;
+  height: auto;
+  text-align: center;
+  overflow: auto;
+}
+.about-page-button{
+  float:left;
+  padding-top: 2.2em
+}
+.work-with-us{
+  width: 60%;
+  float: left;
+}
+
+.main-content-about{
+  flex-grow: inherit;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.main-content-about h3{
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/*404-Page*/
+
+.oopsie{
+    background: url("img/oopsie-daisy-404.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    max-width: 100%;
+    height: 400px;
+    opacity: 0.75;
+    font-size: 2.45em;
+    text-shadow:
+}
+.main-content-404 {
+  width: 100%;
+  height: auto;
+
+}
+.oopsie h1{
+  position:absolute;
+  top: 150px;
+  left:675px;
+  width: 100%;
+  text-shadow: 2px 2px #ab0a8d;
+}
+.site-content-404 .button{
+  float: right;
+}
+.main-content-404 h2{
+  text-align: right;
+  }
