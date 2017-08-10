@@ -168,6 +168,9 @@ div.main-content {
   width: 60%;
   float: left;
 }
+.main-content-about h4{
+  color: #333333;
+}
 
 .main-content-about{
   flex-grow: inherit;
@@ -182,6 +185,29 @@ div.main-content {
   text-align: center;
   line-height: 1.5;
 }
+.aboutpage-our-services h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Montserrat';
+  font-size: 1.25em;
+  font-weight: 400;
+  margin:0;
+}
+.aboutpage-our-services p{
+float: right;
+width: 65%;
+}
+/*figure.right-float{
+  float: right;
+}
+.aboutpage-our-services-right p{
+  float: left;
+  width: 65%;
+}*/
+ul.about-our-services{
+  list-style-type:none;
+}
+
 
 /*404-Page*/
 
