@@ -59,17 +59,22 @@ get_header(); ?>
 			<h4>From the Blog</h4>
 			<?php query_posts('posts_per_page=1'); ?>
      <?php while ( have_posts() ) : the_post(); ?>
-       <h2><?php the_title(); ?></h2>
+       <h3><?php the_title(); ?></h3>
        <?php the_excerpt(); ?>
+		 </div>
+		 <div class="twitter-feed">
+			 <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+
+				 <div id="secondary" class="widget-area" role="complementary">
+					 	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+						<h2>@Accelerate</h2>
+						<div class="follow-us-link"><a href="http://localhost:8888/accelerate/"><span>Follow Us</span> ›</a></div>
+				</div>
+				<?php endif; ?>
      <?php endwhile; //end of loop. ?>
     <?php wp_reset_query(); //resets the altered query back to the original ?>
 		</div>
 	</div>
 </section>
-<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-2' ); ?>
-</div>
-<?php endif; ?>
 
 <?php get_footer(); ?>

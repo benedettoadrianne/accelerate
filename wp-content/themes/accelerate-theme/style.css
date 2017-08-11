@@ -545,6 +545,11 @@ body {
 		display: inline;
 	}
 }
+@media (min-width: 768px)
+.page-header .primary-navigation ul li {
+ display: block;
+ float: left;
+}
 /* End NEXT / PREV STYLES */
 
 /* SINGLE POST STYLES */
