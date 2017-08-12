@@ -299,3 +299,8 @@ div.main-content {
 ul.tweets a{
     color: #000000;
   }
+  /*Social icons*/
+
+  #sfsi_wDiv{
+    margin-left: 10px;
+  }
