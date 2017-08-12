@@ -198,7 +198,7 @@ div.main-content {
   font-family: 'Montserrat';
   font-size: 1.25em;
   font-weight: 400;
-  margin:0;
+  margin-top:3%;
 }
 /*
 .about-our-services{
@@ -211,33 +211,32 @@ div.main-content {
 }*/
 .about-our-services aside{
   float: left;
-  margin:0 5% 0 0;
-  width: 65%;
-  border: orange 1em solid;
+  margin: 2% 0 3% 0;
+  width: 70%;
+
 }
 
 .about-our-services div{
   float: right;
-  width: 30%;
+  width: 20%;
   /*margin: 1.15em 0 0 0;*/
-  border: pink 1em solid;
+
 }
 
-.about-sidebar:nth-child(odd) aside{
+.about-our-services:nth-child(odd) aside{
   float:right;
   margin-left: 0 0 0 5%;
-  border: blue 1em soild;
+
 }
 .about-our-services:nth-child(odd) div{
   float:left;
-  border: red 1em solid;
 }
-/*
-.aboutpage-our-services-right p{
-  float: left;
-  width: 65%;
+.main-content-about p{
+  margin-bottom: 3%;
 }
-*/
+#about-images{
+  margin-top: 5%;
+}
 
 /*404-Page*/
 
